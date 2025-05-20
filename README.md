@@ -35,13 +35,7 @@ if you want to test:
 infer.py
 ```
 ## Acknowledgement
-Many thanks for these repos for their great contribution!
+ModeT,Mamba,TransMatch,SegMamba,
 
-[https://github.com/MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet)
 
-[https://github.com/Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI)
-
-[https://github.com/hustvl/Vim](https://github.com/hustvl/Vim)
-
-[https://github.com/bowang-lab/U-Mamba](https://github.com/bowang-lab/U-Mamba)
 
