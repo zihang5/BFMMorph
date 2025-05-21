@@ -1,14 +1,15 @@
-#BFMMorph
-
 BFMMorph: A Dual-Stream Medical Image Registration Framework Based on Bidirectional Fourier Mamba
 
 
+
+```bash
 cd BFMMorph-git
 ```
+
 ### Install causal-conv1d
 
 ```bash
-cd causal-conv1d
+cd mamba
 
 python setup.py install
 ```
