@@ -23,8 +23,8 @@ python setup.py install
 ```
 
 ### Training 
-if you want to train:
 
+```bash
 train.py
 ```
 
