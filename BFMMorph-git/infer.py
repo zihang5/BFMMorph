@@ -38,7 +38,7 @@ def main():
     TIME = []
 
     val_dir = 'IXI-data-path'
-    altas = 'altas-path'
+    atlas = 'altas-path'
     model_folder = 'best/'
     model_idx = -1
     model_dir = 'experiments/' + model_folder
@@ -55,7 +55,7 @@ def main():
     test_composed = transforms.Compose([trans.Seg_norm(),
                                         trans.NumpyType((np.float32, np.int16)),
                                         ])
-    test_set = datasets.IXIBrainInferDataset(glob.glob(val_dir + '*.pkl'), altas, transforms=test_composed)
+    test_set = datasets.IXIBrainInferDataset(glob.glob(val_dir + '*.pkl'), atlas, transforms=test_composed)
     test_loader = DataLoader(test_set, batch_size=1, shuffle=False, num_workers=0, pin_memory=True, drop_last=True)
 
     eval_dsc_def = AverageMeter()
