@@ -501,7 +501,7 @@ class BFMMorph(nn.Module):
         moved = self.spatial_trans(source, flow)
         return moved, flow
 
-def get_3DMambaMorph_config():
+def get_3DBFMMorph_config():
     '''
     Trainable params: 15,201,579
     '''
@@ -529,10 +529,10 @@ def get_3DMambaMorph_config():
 
 # from TransMorph import CONFIGS as CONFIGS_TM
 if __name__ =='__main__':
-    config = get_3DMambaMorph_config()
+    config = get_3DBFMMorph_config()
     model = BFMMorph(config=config).to('cuda')
-    source = torch.randn(1,1,160,192,160).cuda()
-    target = torch.randn(1,1,160,192,160).cuda()
+    source = torch.randn(1,1,160,192,224).cuda()
+    target = torch.randn(1,1,160,192,224).cuda()
     output = model(source, target)
     print(output[0].shape)
     print(output[1].shape)
