@@ -1,5 +1,6 @@
 BFMMorph: A Dual-Stream Medical Image Registration Framework Based on Bidirectional Fourier Mamba
 
+![image](https://github.com/user-attachments/assets/6c7c7bae-0cd2-40e4-af38-a0a92432f3ba)
 
 
 ```bash
