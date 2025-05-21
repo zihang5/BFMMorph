@@ -22,7 +22,7 @@ cd mamba
 python setup.py install
 ```
 
-### Training 
+### Train
 
 ```bash
 python train.py
@@ -30,15 +30,15 @@ python train.py
 
  
 ### Inference 
-if you want to test:
 ```bash
 python infer.py
 ```
 ## Reference
 <a href="https://github.com/voxelmorph/voxelmorph">VoxelMorph</a>,
-<a href="https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration">TransMorph</a>,
-and
+<a href="https://github.com/tzayuan/TransMatch_TMI">TransMatch</a>,
 <a href="https://github.com/ZAX130/SmileCode">ModeT</a>.
+and
+<a href="https://github.com/ge-xing/SegMamba">SegMamba</a>.
 
 
 
